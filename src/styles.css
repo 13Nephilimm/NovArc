@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --background: #00031c;
+  --white: #e6e6e8;
+  --blue: #0237e4;
+  --light-blue: #02bbfe;
+  --yellow: #fde910;
+  --purple: #c93efb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+  font-family: "Tektur", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
