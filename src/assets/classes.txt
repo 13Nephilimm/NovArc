@@ -1,0 +1,102 @@
+1. Berserker
+Benefits:
+- Extremely high physical damage
+- Rage mechanic increases damage as health decreases
+- Can break enemy defenses
+
+Weaknesses:
+- Low defense and survivability
+- Limited ranged abilities
+- Hard to control in prolonged fights
+
+-------------------------------------------------------------------------------------------
+
+2. Sentinel
+Benefits:
+- High health and defense
+- Can taunt enemies to protect allies
+- Strong against physical attacks
+
+Weaknesses:
+- Low energy and damage output
+- Weak against magic attacks
+- Slow and less mobile
+
+-------------------------------------------------------------------------------------------
+
+3. Speedster
+Benefits:
+- Extremely fast, can attack multiple times per turn
+- High dodge and hit chance
+- Great for critical hits and finishing blows
+
+Weaknesses:
+- Low health and defense
+- Cannot sustain heavy attacks
+- Energy drains fast with multiple abilities
+
+-------------------------------------------------------------------------------------------
+
+4. Mage
+Benefits:
+- High energy for spells
+- Can hit multiple enemies
+- Strong magical damage
+
+Weaknesses:
+- Low health
+- Vulnerable in close combat
+- Requires careful energy management
+
+-------------------------------------------------------------------------------------------
+
+5. Elemental
+Benefits:
+- Can control fire, ice, or lightning for powerful effects
+- High versatility against different enemy types
+- Can inflict status effects (burn, freeze, stun)
+
+Weaknesses:
+- Medium health and defense
+- Damage may be weaker if enemy resists element
+- High energy cost for big elemental attacks
+
+-------------------------------------------------------------------------------------------
+
+6. Ranger
+Benefits:
+- Excellent long-range damage
+- High critical chance
+- Can set traps or use ranged tactics
+
+Weaknesses:
+- Medium health, weak in close combat
+- Moderate energy
+- Limited melee abilities
+
+-------------------------------------------------------------------------------------------
+
+7. Summoner
+Benefits:
+- Can summon creatures/minions to fight
+- Flexible: can focus on offense or defense via summons
+- Can control battlefield indirectly
+
+Weaknesses:
+- Low personal damage
+- Summons require energy to maintain
+- Vulnerable when summons are gone
+
+-------------------------------------------------------------------------------------------
+
+8. Engineer
+Benefits:
+- Can deploy gadgets, turrets, or traps
+- Moderate damage and support abilities
+- Good utility for team buffs or crowd control
+
+Weaknesses:
+- Medium health and energy
+- Limited direct attack
+- Needs setup time for maximum efficiency
+

@@ -1,0 +1,46 @@
+<div class="character-card">
+  <div class="card-header">
+    <img
+      class="character-image"
+      [src]="character1.image"
+      alt="{{ character1.name }}"
+    />
+    <h2 class="character-name">{{ character1.name }}</h2>
+    <!-- <p class="character-description">{{ character1.description }}</p> -->
+    <div class="character-class">{{ character1.class.join(", ") }}</div>
+  </div>
+  <div class="stats-container">
+    <div class="stat">
+      <div class="stat-value">{{ character1.health }}</div>
+      <div class="stat-label">Health</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ character1.energy }}</div>
+      <div class="stat-label">Energy</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ character1.dodge }}</div>
+      <div class="stat-label">Dodge</div>
+    </div>
+  </div>
+
+  <!-- <div class="powers-section">
+    <h3 class="powers-title">Powers</h3>
+    <ul class="powers-list">
+      <li *ngFor="let power of character1.powers" class="power-item">
+        <div class="power-name">{{ power.title }}</div>
+        <div class="power-stats">
+          <span class="power-stat critical"
+            >Critical: {{ power.criticalChance }}</span
+          >
+          <span class="power-stat damage">Damage: {{ power.damage }}</span>
+          <span class="power-stat energy">Energy: {{ power.energyCost }}</span>
+          <span class="power-stat">Hit: {{ power.hitChance }}</span>
+          <span class="power-stat"
+            >Self Heal: {{ power.selfHeal ? "Yes" : "No" }}</span
+          >
+        </div>
+      </li>
+    </ul>
+  </div> -->
+</div>

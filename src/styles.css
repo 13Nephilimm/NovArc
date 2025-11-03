@@ -16,6 +16,10 @@
   font-family: "Tektur", sans-serif;
 }
 
+html {
+  background-color: var(--background);
+}
+
 img {
   width: 100%;
 }
