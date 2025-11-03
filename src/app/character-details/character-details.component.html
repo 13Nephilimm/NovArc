@@ -1,1 +1,59 @@
-<p>character-details works!</p>
+<div class="container">
+  <!-- Character Header -->
+  <section class="character-header">
+    <div class="character-image-container">
+      <img
+        class="character-image"
+        [src]="character?.image"
+        alt="{{ character?.name }}"
+      />
+      <div class="character-class">{{ character?.class }}</div>
+    </div>
+    <div class="character-info">
+      <h1 class="character-name">{{ character?.name }}</h1>
+      <p class="character-description">
+        {{ character?.description }}
+      </p>
+
+      <div class="character-stats">
+        <div class="stat">
+          <div class="stat-value">{{ character?.health }}</div>
+          <div class="stat-label">Health</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">{{ character?.energy }}</div>
+          <div class="stat-label">Energy</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">{{ character?.dodge }}%</div>
+          <div class="stat-label">Dodge</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abilities Section -->
+  <section class="abilities-section">
+    <h2 class="section-title">Abilities</h2>
+    <div class="abilities-grid">
+      <div class="ability-card" *ngFor="let ability of character?.powers">
+        <div class="ability-header">
+          <h3 class="ability-name">{{ ability.title }}</h3>
+        </div>
+        <div class="ability-stats">
+          <span class="ability-stat critical"
+            >Critical: {{ ability.criticalChance }}%</span
+          >
+          <span class="ability-stat damage">Damage: {{ ability.damage }}</span>
+          <span class="ability-stat energy"
+            >Energy: {{ ability.energyCost }}</span
+          >
+          <span class="ability-stat">Hit: {{ ability.hitChance }}%</span>
+          <span class="ability-stat"
+            >Self-Heal: {{ ability.selfHeal ? "Yes" : "No" }}</span
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

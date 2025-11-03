@@ -80,6 +80,43 @@ export class CharacterService {
         },
       ],
     },
+    {
+      id: 3,
+      name: 'Selara',
+      description:
+        'Selara is a gentle and kind-hearted mage who wields the power of fire. Calm and wise, she protects her friends and guides them through danger, using her flames to control the battlefield rather than just destroy it.',
+      image: 'assets/character-3.jpeg',
+      class: ['Elemental', 'Mage'],
+      dodge: 20,
+      health: 110,
+      energy: 120,
+      powers: [
+        {
+          title: 'Flame Barrier',
+          damage: 25,
+          energyCost: 20,
+          criticalChance: 0.1,
+          hitChance: 0.95,
+          selfHeal: true,
+        },
+        {
+          title: 'Blazing Wave',
+          damage: 50,
+          energyCost: 35,
+          criticalChance: 0.2,
+          hitChance: 0.9,
+          selfHeal: false,
+        },
+        {
+          title: 'Ember Bond',
+          damage: 0,
+          energyCost: 25,
+          criticalChance: 0,
+          hitChance: 1,
+          selfHeal: true,
+        },
+      ],
+    },
   ];
 
   getAll(): Character[] {
@@ -88,7 +125,7 @@ export class CharacterService {
 
   getById(characterId: number): Character | undefined {
     return this.characters.find((char) => {
-      char.id === characterId;
+      return char.id === characterId;
     });
   }
 }

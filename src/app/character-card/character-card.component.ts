@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Character } from '../models/character';
 
 @Component({
@@ -6,4 +6,11 @@ import { Character } from '../models/character';
   templateUrl: './character-card.component.html',
   styleUrls: ['./character-card.component.css'],
 })
-export class CharacterCardComponent {}
+export class CharacterCardComponent {
+  @Input() character!: Character;
+  @Output() viewDetails = new EventEmitter<Character>();
+
+  onViewDetails() {
+    this.viewDetails.emit(this.character);
+  }
+}

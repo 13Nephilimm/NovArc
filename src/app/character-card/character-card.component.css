@@ -19,6 +19,7 @@
 .character-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(2, 55, 228, 0.3);
+  cursor: pointer;
 }
 
 .card-header {
