@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Character } from '../models/character';
 import { ActivatedRoute } from '@angular/router';
 import { CharacterService } from '../services/character.service';
+import { CharacterSelectionService } from '../services/character-selection.service';
 
 @Component({
   selector: 'app-character-details',
@@ -13,8 +14,14 @@ export class CharacterDetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private service: CharacterService
+    private service: CharacterService,
+    private selectionService: CharacterSelectionService
   ) {}
+
+  chooseFighter() {
+    if (!this.character) return;
+    this.selectionService.setPlayerCharacter(this.character);
+  }
 
   ngOnInit() {
     this.route.paramMap.subscribe((params) => {

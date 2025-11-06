@@ -6,16 +6,13 @@ import { Character } from '../models/character';
   providedIn: 'root',
 })
 export class CharacterSelectionService {
-  // what if we initialize them inside constructor, like we do on Router. in which cases do we need constructor and in which cases don't.
-  private playerCharacterSubject = new BehaviorSubject<Character | null>(null); // wth is behaviorSubject
+  private playerCharacterSubject = new BehaviorSubject<Character | null>(null);
   private opponentCharacterSubject = new BehaviorSubject<Character | null>(
     null
   );
 
-  playerCharacter$ = this.playerCharacterSubject.asObservable(); // what does $ do
-  opponentCharacter$ = this.opponentCharacterSubject.asObservable(); // what is asObservable
-
-  // as I undestant this functions are for saving current chosen one and edit or remove as well. but what does next() do
+  playerCharacter$ = this.playerCharacterSubject.asObservable();
+  opponentCharacter$ = this.opponentCharacterSubject.asObservable();
   setPlayerCharacter(char: Character) {
     this.playerCharacterSubject.next(char);
   }
