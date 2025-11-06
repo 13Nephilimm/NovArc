@@ -1,0 +1,42 @@
+<header>
+  <nav class="nav-bar">
+    <a
+      routerLink="/about-us"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+      >About Us</a
+    >
+    <a
+      routerLink="/characters"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+      >Characters</a
+    >
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+    >
+      <div class="logo-container">
+        <img src="assets/logo.jpg" alt="logo" class="logo" />
+      </div>
+    </a>
+    <a
+      routerLink="/game-information"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+      >Game Information</a
+    >
+    <a
+      routerLink="/contact"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+      >Contact</a
+    >
+  </nav>
+</header>

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharacterListComponent } from './character-list/character-list.component';
 import { CharacterDetailsComponent } from './character-details/character-details.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterCardComponent,
     CharacterListComponent,
-    CharacterDetailsComponent
+    CharacterDetailsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

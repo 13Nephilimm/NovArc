@@ -12,6 +12,7 @@ export class CharacterService {
       description:
         'Lyria is a swift and clever mage who uses her speed and magical prowess to outmaneuver enemies. Quick on her feet and deadly with spells, she strikes before opponents can react.',
       image: 'assets/character-1.jpeg',
+      gender: 'female',
       class: ['Mage', 'Speedster'],
       dodge: 25,
       health: 100,
@@ -49,6 +50,7 @@ export class CharacterService {
       description:
         'A stoic guardian armed with advanced tech and an unbreakable will. Darian blends the resilience of a Sentinel with the ingenuity of an Engineer, standing firm between his allies and danger while deploying powerful defensive gadgets.',
       image: 'assets/character-2.jpeg',
+      gender: 'male',
       class: ['Sentinel', 'Engineer'],
       dodge: 10,
       health: 160,
@@ -86,6 +88,7 @@ export class CharacterService {
       description:
         'Selara is a gentle and kind-hearted mage who wields the power of fire. Calm and wise, she protects her friends and guides them through danger, using her flames to control the battlefield rather than just destroy it.',
       image: 'assets/character-3.jpeg',
+      gender: 'female',
       class: ['Elemental', 'Mage'],
       dodge: 20,
       health: 110,
@@ -123,6 +126,7 @@ export class CharacterService {
       description:
         'Torian is a fierce warrior whose raw strength and unshakable determination make him the natural captain of any team. Fearless in battle, he leads by example and inspires his allies to fight with courage.',
       image: 'assets/character-4.jpeg',
+      gender: 'male',
       class: ['Berserker'],
       dodge: 10,
       health: 180,
@@ -160,6 +164,7 @@ export class CharacterService {
       description:
         'Veyron is a daring cruiser biker, notorious in the underground world. Quick, cunning, and lethal from a distance, he strikes with precision and disappears before anyone can retaliate. A rebel at heart, he trusts only his closest allies.',
       image: 'assets/character-5.jpeg',
+      gender: 'male',
       class: ['Ranger', 'Speedster'],
       dodge: 30,
       health: 100,
@@ -197,6 +202,7 @@ export class CharacterService {
       description:
         'Kaelin is a young and curious summoner with a mischievous streak. Anything he defeats in battle can be summoned as an ally, giving him a constantly growing arsenal. Despite his youth, his cunning makes him a valuable strategist on the battlefield.',
       image: 'assets/character-6.jpeg',
+      gender: 'male',
       class: ['Summoner'],
       dodge: 20,
       health: 90,
@@ -234,6 +240,7 @@ export class CharacterService {
       description:
         'Tessa is a genius engineer known for her calm focus and unmatched precision. She fights with her inventions rather than brute force, deploying drones and traps to outsmart her enemies while keeping her allies safe.',
       image: 'assets/character-7.jpeg',
+      gender: 'female',
       class: ['Engineer'],
       dodge: 15,
       health: 110,
